@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=SUSE:wght@100..800&display=swap');
+
+/* Set the stroke weight and noStroke for non-selected bubbles */
+/* Pick select and unselect colors */
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "SUSE"", sans-serif";
+/*   font-family: "Inter"; */
+  font-weight: 300;
+}
+canvas {
+  display: block;
+}
+
+.button {
+  background-color: #d7f4f1;
+  color: black;
+  border-radius: 50px;
+  border: 2px solid #3c0008;
+  transition: 0.2s;
+  padding: 10px;
+  font-size: small;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: "SUSE"", sans-serif";
+}
+
+.button:hover {
+  background-color: pink;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.inputBox {
+  border-radius: 10px;
+  border: 2px solid #3c0008;
+  height: 3%;
+  font-size: small;
+  padding-left: 5px;
+  padding-right: 5px;
+}
